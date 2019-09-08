@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body style="font-size:26px">
+    <form>
+        Q1.In this experiment, if the alarm is to be activated only when the temperature and pressure exceed their maximum limits at the same time which of the following gate would you choose for this application?
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">AND<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">OR<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">NOR<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">NAND<br>
+
+    </form>
+    <br>
+    <div id="ans1" style="display:none;color:blue">Ans is A</div>
+    <br>
+    <br>
+    <form>
+        Q2. Under what condition would a two input OR gate allow a logic signal to pass through to its output unchanged?
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">When one of the inputs is HIGH.<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">When both the inputs are HIGH<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">When both the inputs are LOW.<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">When one of the inputs is LOW <br>
+
+    </form>
+    <br>
+    <div id="ans2" style="display:none;color:blue">Ans is D</div>
+    <br>
+    <br>
+    <form>
+        Q3. Are the two statements below concerning an OR gate always true?
+
+        (i) If the output waveform from an OR gate is the same as the waveform at one of its inputs, the other input is being held permanently LOW.
+
+        (ii) If the output waveform from an OR gate is always HIGH, one of its inputs is being held permanently HIGH.
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Yes<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">No<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Not predictable<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">None of these<br>
+
+    </form>
+    <br>
+    <div id="ans3" style="display:none;color:blue">Ans is A</div>
+    <br>
+    <br>
+    <form>
+        Q4. When the weight is overloaded (logic 1 o/p of weight sensor) or the water level is low (logic 1 o/p of level sensor) or both conditions are true, which gate should be used to indicate alarming condition?
+        <img src="a1.png" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">AND<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">OR<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">NOT<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">XOR<br>
+
+    </form>
+    <br>
+    <div id="ans4" style="display:none;color:blue">Ans is B</div>
+    <br>
+    <br>
+    <form>
+        Q5 Complete each expression:
+
+        (i) A + 1 = __________ (ii) A + 0 = __________
+
+        (iii) A + A’ = _______ (iv) A+ A = _________
+
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">A,1,A,1 <br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">1,A,1,A <br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">A,0,A,A<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">1,A,0,A<br>
+
+    </form>
+    <br>
+    <div id="ans5" style="display:none;color:blue">Ans is B</div>
+    <br>
+    <script>
+        function ans1() {
+            var div1 = document.getElementById("ans1");
+            div1.style.display = "inline";
+        }
+        function ans2() {
+            var div1 = document.getElementById("ans2");
+            div1.style.display = "inline";
+        }
+        function ans3() {
+            var div1 = document.getElementById("ans3");
+            div1.style.display = "inline";
+        }
+        function ans4() {
+            var div1 = document.getElementById("ans4");
+            div1.style.display = "inline";
+        }
+        function ans5() {
+            var div1 = document.getElementById("ans5");
+            div1.style.display = "inline";
+        }
+    </script>
+
+</body>
+</html>

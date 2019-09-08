@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body >
+    <form style="font-size:26px">
+        Q1. For the Karnaugh map shown below, obtain  the simplified Boolean expression:<br /><img src="q1.png" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = A'BC' + A'CD + ABC + AC'D<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = A'BC' + BD + A'CD + ABC + AC'D <br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = AB'C + AC'D' +A'B'C' + A'CD'<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">None of these<br>
+
+    </form>
+    <br>
+    <div id="ans1" style="display:none;color:blue;font-size:26px">Ans is A</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q.2 A two bit comparator circuit with inputs A2A1 and B2B1 is implemented to check >, < and = checking. The expression for the equality output is given by: 
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Four input XNOR gate<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Four input XOR gate<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Four input AND gate<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">None of these<br>
+
+    </form>
+    <br>
+    <div id="ans2" style="display:none;color:blue;font-size:26px">Ans is A</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q3. An XOR gate is to be used as an enable/disable circuit as shown below:<br /><img src="q3.png" /><br />The expression for output Y is:
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Y = 0<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Y = 1<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Y = A<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Y = A'<br>
+
+    </form>
+    <br>
+    <div id="ans3" style="display:none;color:blue;font-size:26px">Ans is D</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q4. For the circuit shown below, analyse and obtain the expression for output Y.<br /><img src="q4.png" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Y = 1<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Y = 0<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Y = A'B + AB'<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Y = AB<br>
+
+    </form>
+    <br>
+    <div id="ans4" style="display:none;color:blue;font-size:26px">Ans is B</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q 5. Analyze the circuit given below. For B = 0 obtain the output Y.<br /><img src="q5.png" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">Y = AB'<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">Y = 0<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">Y = 1<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">None of these<br></form>
+
+    <br>
+    <div id="ans5" style="display:none;color:blue;font-size:26px">Ans is B</div>
+    <br>
+    
+
+
+    <script>
+        function ans1()
+        {
+            var div1 = document.getElementById("ans1");
+            div1.style.display = "inline";
+        }
+        function ans2() {
+            var div1 = document.getElementById("ans2");
+            div1.style.display = "inline";
+        }
+        function ans3() {
+            var div1 = document.getElementById("ans3");
+            div1.style.display = "inline";
+        }
+        function ans4() {
+            var div1 = document.getElementById("ans4");
+            div1.style.display = "inline";
+        }
+        function ans5() {
+            var div1 = document.getElementById("ans5");
+            div1.style.display = "inline";
+        }
+        function ans6() {
+            var div1 = document.getElementById("ans6");
+            div1.style.display = "inline";
+        }
+    </script>
+
+</body>
+</html>

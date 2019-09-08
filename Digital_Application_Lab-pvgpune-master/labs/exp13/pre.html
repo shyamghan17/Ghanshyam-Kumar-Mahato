@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body >
+    <form style="font-size:26px">
+        Q1. A half adder is a circuit that adds two binary numbers and produces a sum(S) and a carry(CY). Which of the following is the correct way of expressing these outputs?
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">S = A XNOR B, CY = AB <br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">S = AB, CY = A+B<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">S = A XOR B, CY = A+B<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">S = A XOR B, CY = AB<br>
+
+    </form>
+    <br>
+    <div id="ans1" style="display:none;color:blue;font-size:26px">Ans is D</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q.2 A one-bit multiplier circuit produces an output Y:
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Y = A+ B<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Y = A.B<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Y = A XOR B<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Y = (AB)’<br>
+
+    </form>
+    <br>
+    <div id="ans2" style="display:none;color:blue;font-size:26px">Ans is B</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q3. The expression for sum (S) of a full adder circuit is given by:
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Y = ABC<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Y = A XOR B XOR C<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Y = A+B+C<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">None of these<br>
+
+    </form>
+    <br>
+    <div id="ans3" style="display:none;color:blue;font-size:26px">Ans is B</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q4. To design a one bit subtractor using AOI logic, the Difference output (Diff) and borrow output (Br) is given by expressions:
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Diff = A XNOR B; Br = AB<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Diff = AB; Br = A’B<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Diff = A+ B; Br = AB<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Diff = A XOR B; Br = A’B<br>
+
+    </form>
+    <br>
+    <div id="ans4" style="display:none;color:blue;font-size:26px">Ans is D</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q 5. While designing a Full Adder, two implementation options are available: Method 1: AOI Logic; Method 2: NAND Logic. Which of these methods provides a simple, compact and reliable design?
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">AOI Logic<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">NAND Logic<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">Both A and B<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">None of these<br>
+
+    </form>
+
+    <br>
+    <div id="ans5" style="display:none;color:blue;font-size:26px">Ans is B</div>
+    <br>
+    
+
+
+    <script>
+        function ans1()
+        {
+            var div1 = document.getElementById("ans1");
+            div1.style.display = "inline";
+        }
+        function ans2() {
+            var div1 = document.getElementById("ans2");
+            div1.style.display = "inline";
+        }
+        function ans3() {
+            var div1 = document.getElementById("ans3");
+            div1.style.display = "inline";
+        }
+        function ans4() {
+            var div1 = document.getElementById("ans4");
+            div1.style.display = "inline";
+        }
+        function ans5() {
+            var div1 = document.getElementById("ans5");
+            div1.style.display = "inline";
+        }
+        function ans6() {
+            var div1 = document.getElementById("ans6");
+            div1.style.display = "inline";
+        }
+    </script>
+
+</body>
+</html>

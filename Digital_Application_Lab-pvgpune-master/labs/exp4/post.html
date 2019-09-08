@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body style="font-size:26px">
+    <form>
+        Q1. For the combination shown below, the Boolean expression for Y is:<br />
+        <img src="fuellevel/image001.png" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = A’. B’<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = A. B<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = (A . B)’<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = A + B<br>
+
+    </form>
+    <br>
+    <div id="ans1" style="display:none;color:blue">Ans is C</div>
+    <br>
+    <br>
+    <form>
+        Q2. For the circuit shown below the Boolean expression for the output is expressed as :<br />
+        <img src="fuellevel/image002.jpg" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Y = A + B<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Y = A . B<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Y = (A . B)’<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Y = A’ + B’<br>
+
+    </form>
+    <br>
+    <div id="ans2" style="display:none;color:blue">Ans is A</div>
+    <br>
+    <br>
+    <form>
+        Q3. For the circuit shown below, if a momentary Logic 1 is applied
+
+        to input A, then the output will be:<br />
+        <img src="fuellevel/image003.png" />
+
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">0<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">1<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Square wave (Toggling)<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">None of these<br>
+
+    </form>
+    <br>
+    <div id="ans3" style="display:none;color:blue">Ans is C</div>
+    <br>
+    <br>
+    <form>
+        Q4.  The equivalent gate representing the combination shown below is:<br />
+        <img src="fuellevel/image004.png" />
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">AND<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Bubbled AND<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">NAND<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">XOR<br>
+
+    </form>
+    <br>
+    <div id="ans4" style="display:none;color:blue">Ans is C</div>
+    <br>
+    <br>
+    <form>
+        Q5. The Boolean expression for output Y is:<br />
+        <img src="fuellevel/image005.png" />
+
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">A’. B’ <br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">A’ + B’ <br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">A + B<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">A.B<br>
+
+    </form>
+    <br>
+    <div id="ans5" style="display:none;color:blue">Ans is D</div>
+    <br>
+    <script>
+        function ans1() {
+            var div1 = document.getElementById("ans1");
+            div1.style.display = "inline";
+        }
+        function ans2() {
+            var div1 = document.getElementById("ans2");
+            div1.style.display = "inline";
+        }
+        function ans3() {
+            var div1 = document.getElementById("ans3");
+            div1.style.display = "inline";
+        }
+        function ans4() {
+            var div1 = document.getElementById("ans4");
+            div1.style.display = "inline";
+        }
+        function ans5() {
+            var div1 = document.getElementById("ans5");
+            div1.style.display = "inline";
+        }
+    </script>
+</body>
+</html>

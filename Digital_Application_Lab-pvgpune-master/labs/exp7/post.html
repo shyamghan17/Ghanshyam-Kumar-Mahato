@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body style="font-size:26px">
+    <form>
+        Q1. The Boolean expression for the circuit shown below is:<br />
+        <img src="image002.jpg" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = A’. B’<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y= (A + B)<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = (A.B)’)<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = (A + B)’<br>
+
+    </form>
+    <br>
+    <div id="ans1" style="display:none;color:blue">Ans is A</div>
+    <br>
+    <br>
+    <form>
+        Q2. The circuit given below behaves as a<br />
+        <img src="waterlevel/a1.png" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Bubbled AND gate<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">OR gate<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">NOT gate<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">None of these <br>
+
+    </form>
+    <br>
+    <div id="ans2" style="display:none;color:blue">Ans is A</div>
+    <br>
+    <br>
+    <form>
+        Q3. The Boolean expression for the logic circuit given below is:<br />
+        <img src="waterlevel/image002.png" />
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">A<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">A'<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">0<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">1<br>
+
+    </form>
+    <br>
+    <div id="ans3" style="display:none;color:blue">Ans is A</div>
+    <br>
+    <br>
+    <form>
+        Q4.   The Boolean expression for the <br />
+        <img src="waterlevel/image003.jpg" />
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">1<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">0<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">High Impedance (Z)<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">None of these<br>
+
+    </form>
+    <br>
+    <div id="ans4" style="display:none;color:blue">Ans is C</div>
+    <br>
+    <br>
+    <form>
+        Q5.  The simplified Boolean expression for the circuit below:<br />
+        <img src="waterlevel/a2.png" />
+
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">A+ B <br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">A’ + B <br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">A’<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">0<br>
+
+    </form>
+    <br>
+    <div id="ans5" style="display:none;color:blue">Ans is A</div>
+    <br>
+    <script>
+        function ans1() {
+            var div1 = document.getElementById("ans1");
+            div1.style.display = "inline";
+        }
+        function ans2() {
+            var div1 = document.getElementById("ans2");
+            div1.style.display = "inline";
+        }
+        function ans3() {
+            var div1 = document.getElementById("ans3");
+            div1.style.display = "inline";
+        }
+        function ans4() {
+            var div1 = document.getElementById("ans4");
+            div1.style.display = "inline";
+        }
+        function ans5() {
+            var div1 = document.getElementById("ans5");
+            div1.style.display = "inline";
+        }
+    </script>
+</body>
+</html>

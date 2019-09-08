@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body >
+    <form style="font-size:26px">
+        Q1. Apply DeMorgan’s theorem to the Boolean expression Y = AB + A'C +BC and find its reduced form. The simplified expression for Y is:
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = AB + BC<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = AB + A'C<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = A'C + BC<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = 0<br>
+
+    </form>
+    <br>
+    <div id="ans1" style="display:none;color:blue;font-size:26px">Ans is B</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q.2 Analyze the following combinational circuit and state what would be the output Y?<br /><img src="q2.png" />
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Logic 0<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Logic 1<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">A.B<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">(A.B)'<br>
+
+    </form>
+    <br>
+    <div id="ans2" style="display:none;color:blue;font-size:26px">Ans is B</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q3. Analyze the following combinational circuit and state what would be the output Y?<br /><img src="q4.png" />
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Logic 1<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Logic 0<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">A.B<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">(A.B)'<br>
+
+    </form>
+    <br>
+    <div id="ans3" style="display:none;color:blue;font-size:26px">Ans is A</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q4. Analyze the following combinational circuit and state which logic gate does it represent?<br /><img src="q3.png" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">NOT<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">OR<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">AND<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">NAND<br>
+
+    </form>
+    <br>
+    <div id="ans4" style="display:none;color:blue;font-size:26px">Ans is B</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q 5. Analyze the following combinational circuit and state which logic gate does it represent?<br /><img src="q5.png" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">NOT<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">OR<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">AND<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">NOR<br>
+
+    </form>
+
+    <br>
+    <div id="ans5" style="display:none;color:blue;font-size:26px">Ans is C</div>
+    <br><br><br>
+    
+
+
+    <script>
+        function ans1()
+        {
+            var div1 = document.getElementById("ans1");
+            div1.style.display = "inline";
+        }
+        function ans2() {
+            var div1 = document.getElementById("ans2");
+            div1.style.display = "inline";
+        }
+        function ans3() {
+            var div1 = document.getElementById("ans3");
+            div1.style.display = "inline";
+        }
+        function ans4() {
+            var div1 = document.getElementById("ans4");
+            div1.style.display = "inline";
+        }
+        function ans5() {
+            var div1 = document.getElementById("ans5");
+            div1.style.display = "inline";
+        }
+        function ans6() {
+            var div1 = document.getElementById("ans6");
+            div1.style.display = "inline";
+        }
+    </script>
+
+</body>
+</html>

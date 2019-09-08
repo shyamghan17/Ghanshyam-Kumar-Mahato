@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body >
+    <form style="font-size:26px">
+        Q1. The combinational circuit for one bit equality checker is shown below. The Boolean expression for output Y is:
+        <br /><img src="q1.png" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = A'B + AB'<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = AB + A'B'<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = AB + (AB)' <br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Y = A'B' + A<br>
+
+    </form>
+    <br>
+    <div id="ans1" style="display:none;color:blue;font-size:26px">Ans is B</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q.2 The Boolean expression Y = A'BC'D + A'BCD +ABD can be represented by which of the following simplified combinational circuit?
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();"><img src="q2a.png" style="vertical-align:middle " />  <br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();"><img src="q2b.png" style="vertical-align:middle " /><br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();"><img src="q2c.png" style="vertical-align:middle " /><br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();"><img src="q2d.png" style="vertical-align:middle " /><br>
+
+    </form>
+    <br>
+    <div id="ans2" style="display:none;color:blue;font-size:26px">Ans is D</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q3. Analyze the combinational circuit given below and find the simplified final output Y.<br /><img src="q3.png" />
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Y = Logic 0<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Y = Logic 1<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Y = A.B<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">Y = A + B<br>
+
+    </form>
+    <br>
+    <div id="ans3" style="display:none;color:blue;font-size:26px">Ans is A</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q4. If any one of the inputs of a multiple-input-NAND gate is connected to ground (logic 0) the output is:
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Logic 0<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Tristate<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Logic 1<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">None of these<br>
+
+    </form>
+    <br>
+    <div id="ans4" style="display:none;color:blue;font-size:26px">Ans is C</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q 5. The performance of an application is represented by<br />
+Y = [(AB)' + (A+B)']AB'
+<br />Apply De Morgan's theorem to this expression and state the simplified output Y.
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">Y = AB<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">Y = (AB)'<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">Y = AB'<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">Y = A'B<br>
+
+    </form>
+
+    <br>
+    <div id="ans5" style="display:none;color:blue;font-size:26px">Ans is C</div>
+    <br>
+    
+
+
+    <script>
+        function ans1()
+        {
+            var div1 = document.getElementById("ans1");
+            div1.style.display = "inline";
+        }
+        function ans2() {
+            var div1 = document.getElementById("ans2");
+            div1.style.display = "inline";
+        }
+        function ans3() {
+            var div1 = document.getElementById("ans3");
+            div1.style.display = "inline";
+        }
+        function ans4() {
+            var div1 = document.getElementById("ans4");
+            div1.style.display = "inline";
+        }
+        function ans5() {
+            var div1 = document.getElementById("ans5");
+            div1.style.display = "inline";
+        }
+        function ans6() {
+            var div1 = document.getElementById("ans6");
+            div1.style.display = "inline";
+        }
+    </script>
+
+</body>
+</html>

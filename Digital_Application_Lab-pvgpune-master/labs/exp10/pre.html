@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body >
+    <form style="font-size:26px">
+        Q1. Consider the digital car- door- lock alarm system which sounds an alarm when receives a logic 1. The alarm will sound under what condition?{Assume: Door open = Logic 0}.
+        <br /><img src="q1.png" />
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Front Right Door is open.<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">Front Left Door is open.<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">All four doors are open.<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">All the above.<br>
+
+    </form>
+    <br>
+    <div id="ans1" style="display:none;color:blue;font-size:26px">Ans is D</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q.2 Refer the application shown below and solve the following questions. [Alarm sounds on receiving a logic HIGH.]
+        <br /><img src="q2.png" />
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Alarm sounds when X = 1.<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Alarm sounds when X = 0 and A=B=C=D=0.<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">Alarm sounds when X = 1 and A=B=0, C=D=1.<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">All of the above conditions.<br>
+
+    </form>
+    <br>
+    <div id="ans2" style="display:none;color:blue;font-size:26px">Ans is D</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q3. Consider the circuit given below. Analyze the circuit and state the condition for which the output Y = 0.
+        <br /><img src="q3.png" />
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">A=B=1, C = 1<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">A=B=1, C = 0<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">A= B = 0, C = 1<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">A=B= X, C= 1<br>
+
+    </form>
+    <br>
+    <div id="ans3" style="display:none;color:blue;font-size:26px">Ans is C</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q4. Simplify the following expression using DeMorgan's theorems: Y = [A(B+C')'D]'
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Y = A' + B + C' +D<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Y = A' + B' + C' +D'<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Y = A' + B + C' +D'<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">Y = A + B + C +D<br>
+
+    </form>
+    <br>
+    <div id="ans4" style="display:none;color:blue;font-size:26px">Ans is C</div>
+    <br>
+    <br>
+    <form style="font-size:26px">
+        Q 5. NOR gate is referred to as Universal gate because:
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">NOT gate can be implemented using NOR gate.<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">AND gate can be implemented using ONLY NOR gates.<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">Any logic combinational circuit can be implemented using ONLY NOR gates.<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">All of these.<br>
+
+    </form>
+
+    <br>
+    <div id="ans5" style="display:none;color:blue;font-size:26px">Ans is D</div>
+    <br>
+    
+
+
+    <script>
+        function ans1()
+        {
+            var div1 = document.getElementById("ans1");
+            div1.style.display = "inline";
+        }
+        function ans2() {
+            var div1 = document.getElementById("ans2");
+            div1.style.display = "inline";
+        }
+        function ans3() {
+            var div1 = document.getElementById("ans3");
+            div1.style.display = "inline";
+        }
+        function ans4() {
+            var div1 = document.getElementById("ans4");
+            div1.style.display = "inline";
+        }
+        function ans5() {
+            var div1 = document.getElementById("ans5");
+            div1.style.display = "inline";
+        }
+        function ans6() {
+            var div1 = document.getElementById("ans6");
+            div1.style.display = "inline";
+        }
+    </script>
+
+</body>
+</html>

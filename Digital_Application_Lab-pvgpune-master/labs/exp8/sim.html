@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<body>
+    <canvas id="mycanvas" width="850" height="500"></canvas>
+
+    <input type="button" style="position:absolute;left:75px;top:75px;width:50px;height:50px;border-radius:100%;border:solid;background-color:grey " onclick="meclick(1);" value="off" id="btn1" />
+    <input type="button" style="position:absolute;left:75px;top:150px;width:50px;height:50px;border-radius:100%;border:solid;background-color:grey " onclick="meclick(2);" value="off" id="btn2" />
+    <input type="button" style="position:absolute;left:75px;top:225px;width:50px;height:50px;border-radius:100%;border:solid;background-color:grey " onclick="meclick(3);" value="off" id="btn3" />
+    <input type="button" style="position:absolute;left:75px;top:300px;width:50px;height:50px;border-radius:100%;border:solid;background-color:grey " onclick="meclick(4);" value="off" id="btn4" />
+    <script>
+
+
+    window.onload = function () {
+        cockpit();
+       
+        div1.setip1(0);
+        n1.setip1(0);
+        div3.setip1(0);
+        a3.setip2(0);
+    }
+
+    </script>
+
+</body>
+<head>
+    <script src="../../src/gates.ob.js"></script>
+    <script src="../../src/electroniclock.ob.js"></script>
+    <title></title>
+</head>
+</html>

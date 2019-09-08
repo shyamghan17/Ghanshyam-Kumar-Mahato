@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body style="font-size:26px">
+    <form>
+        Q1. On comparing the AOI and XOR gate logic implementation, XOR logic results in a lower gate count and a reliable system. State TRUE or FALSE.
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">True<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans1();">False<br>
+
+
+    </form>
+    <br>
+    <div id="ans1" style="display:none;color:blue">Ans is A</div>
+    <br>
+    <br>
+    <form>
+        Q2. A certain system contains two identical circuits operating in parallel. As long as both are operating properly, the outputs of both circuits are always the same. If one of the circuits fails, the outputs will be at opposite levels at the same time. Which gate would you choose to detect that a failure has occurred in one of the circuit?
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">AND<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">OR<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">XOR<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans2();">NOT <br>
+
+    </form>
+    <br>
+    <div id="ans2" style="display:none;color:blue">Ans is C</div>
+    <br>
+    <br>
+    <form>
+        Q3. If one of the inputs of a 2-input XOR gate is tied to Vcc (+5 V), the XOR behaves as:
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">AND<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">NOT<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">OR<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans3();">None of these<br>
+
+    </form>
+    <br>
+    <div id="ans3" style="display:none;color:blue">Ans is B</div>
+    <br>
+    <br>
+    <form>
+        Q4. If one of the inputs of a 2-input XOR gate is connected to ground (0 V), the XOR:
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">passes the other  input to the output with some delay.<br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">blocks the other input from reaching the output.<br>
+        C &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">inverts the other input<br>
+        D &nbsp;<input type="radio" name="sex" value="male" onclick="ans4();">None of these.<br>
+
+    </form>
+    <br>
+    <div id="ans4" style="display:none;color:blue">Ans is A</div>
+    <br>
+    <br>
+    <form>
+        Q5.  Can XOR gate be used to compare the parity (no. of 1’s) of the input applied?
+
+
+        <br>
+        A &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">Yes <br>
+        B &nbsp;<input type="radio" name="sex" value="male" onclick="ans5();">NO <br>
+
+
+    </form>
+    <br>
+    <div id="ans5" style="display:none;color:blue">Ans is A</div>
+    <br>
+    <script>
+        function ans1() {
+            var div1 = document.getElementById("ans1");
+            div1.style.display = "inline";
+        }
+        function ans2() {
+            var div1 = document.getElementById("ans2");
+            div1.style.display = "inline";
+        }
+        function ans3() {
+            var div1 = document.getElementById("ans3");
+            div1.style.display = "inline";
+        }
+        function ans4() {
+            var div1 = document.getElementById("ans4");
+            div1.style.display = "inline";
+        }
+        function ans5() {
+            var div1 = document.getElementById("ans5");
+            div1.style.display = "inline";
+        }
+    </script>
+</body>
+</html>
