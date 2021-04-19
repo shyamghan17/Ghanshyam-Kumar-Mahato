@@ -1,10 +1,15 @@
 
 import './App.css';
-import mountCycle from './Components/MountCycle'
+import LifeCycleA from './components/LifeCycleA';
+
+
+
 function App() {
   return (
     <div className="App">
-      <mountCycle></mountCycle>
+
+  <LifeCycleA></LifeCycleA>
+
     </div>
   );
 }
